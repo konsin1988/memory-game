@@ -48,8 +48,8 @@ h2 {
 
 .startBtn {
   position: relative;
-  width: 30vh;
-  height: 30vh;
+  width: 40vh;
+  height: 40vh;
   border-radius: 50%;
   z-index: 5;
   margin-bottom: -100px;
