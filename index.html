@@ -1,15 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="discription" content="content">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="discription" content="content" />
     <title>Memory Game</title>
     <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico" />
-    <link rel="stylesheet" href="./css/main.css" />
     <script src="./js/main.js" defer></script>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="display start">
+      <h1>Memory game</h1>
+      <div class="startBtn">
+        <span>
+          <a href="#">START</a>
+        </span>
+      </div>
+    </div>
+    <div class="display choose">
+      <h1>Memory game</h1>
+      <h2>Number of cards</h2>
+      <div class="boxCount">
+        <div class="choiceBoxes" id="countelem16" data-countelem="16">16</div>
+        <div class="choiceBoxes" id="countelem36" data-countelem="36">36</div>
+      </div>
+      <h2>Number of pairs</h2>
+      <div class="boxCount">
+        <div class="choiceBoxes" id="countpairs1" data-countpairs="2">1</div>
+        <div class="choiceBoxes" id="countpairs2" data-countpairs="4">2</div>
+      </div>
+    </div>
+    <div class="display game">
+      <h1>Find a couple</h1>
+      <div class="board"></div>
+    </div>
+    <div class="display end"></div>
+  </body>
 </html>
