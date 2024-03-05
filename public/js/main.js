@@ -85,7 +85,7 @@ function imageNumberCreation() {
 
 function getTemp(colorTheme, imageNumber, sizeBox) {
   return `<div style="width: ${sizeBox}%; height: ${sizeBox}%" class="imgBx" >
-    <div data-index="${imageNumber}" class="img imgColor${colorTheme}" style="background-image: url(../img/${imageNumber}.jpg)"></div>
+    <div data-index="${imageNumber}" class="img imgColor${colorTheme}" style="background-image: url(./img/${imageNumber}.jpg)"></div>
     </div>`;
 }
 
